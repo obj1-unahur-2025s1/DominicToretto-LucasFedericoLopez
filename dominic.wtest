@@ -1,0 +1,7 @@
+import dominic.*
+import autos.*
+describe "tests generales" {
+  test "añadir dos autos" {
+    assert.equals(2, dominic.cantidadAutos())
+  }
+}
